@@ -1,0 +1,14 @@
+{
+  "name": "stao-arbitrum-integration",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "STAO public Arbitrum integration reference with read-only USDC observations",
+  "license": "UNLICENSED",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test",
+    "inspect": "node examples/inspect.mjs",
+    "check": "node --check src/arbitrum-usdc.mjs && node --check examples/inspect.mjs && node --check test/arbitrum-usdc.test.mjs"
+  }
+}
